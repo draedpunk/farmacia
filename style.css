@@ -1,0 +1,88 @@
+* {
+    font-family: Poppins;
+    margin: auto;
+
+}
+
+header table {
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding-right: 16px;
+}
+
+.td-login{
+    text-align: right;
+}
+
+button{
+    padding: 8px 16px;
+    margin-right: 20px;
+    background-color: (var--white);
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+}
+
+button:hover{
+    background-color: rgba(0, 35, 151, 0.363);
+}
+
+h1{
+    color: blue;
+    font-size: 2.5rem;
+    text-align:center;
+    margin: 40px 0;
+}
+
+.produtos {
+    width: 70%;
+    height: 110%;
+    margin: auto;
+}
+
+table {
+    align-content: center;
+}
+
+.card-produtos {
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+    justify-content: space-between;
+}
+
+.card-produtos button{
+    padding: 12px 24px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-produtos button:hover{
+    background-color: rgba(255, 255, 255, 0.295);
+    color: blue;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p{
+    margin: 0;
+}
